@@ -1,0 +1,32 @@
+# 广播
+```json
+{
+    "type":"initialize",
+    "code":200,
+    "data":{
+        "uid_list":"nlp_test_pub_{_time}",
+        "sub_count":1,
+        "user_id":9998
+    }
+}
+```
+## 结果集
+```json
+//task_name=
+{
+    "statistic":b"123",
+    "batch":1,
+    "1":{
+        "emotion":1,
+        "machineEmotion":1
+    }
+}
+```
+stable
+{
+    "id":[
+        [],
+        [],
+        []
+    ]
+}
